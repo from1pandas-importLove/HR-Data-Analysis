@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Such a Series object cannot exist since Series can only store data of the
+      same type.
+  - text: "0, 1, 2, 3, 4"
+  - text: "1956, 1957, 1958, 1959, 1960"
+  - text: "'Switzerland', 'Netherlands', 'France', 'Netherlands', 'France'"
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10423#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 06 Apr 2025 12:12:15 UTC"
+record: -1
+selected_options:
+  - 2
+local_check: false

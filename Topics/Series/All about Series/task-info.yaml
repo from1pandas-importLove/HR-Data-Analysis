@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Series is value-mutable
+  - text: Series is a 2D data structure
+  - text: Series is size-mutable by default
+  - text: "In Series, index must be the same type as data"
+  - text: Series is a 1D data structure
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10422#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 06 Apr 2025 12:15:28 UTC"
+record: -1
+selected_options:
+  - 0
+  - 4
+local_check: false
