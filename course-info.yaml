@@ -13,5 +13,6 @@ programming_language: Python
 environment: unittest
 content:
   - Topics
+  - HR Data Analysis
 mode: Study
 yaml_version: 1

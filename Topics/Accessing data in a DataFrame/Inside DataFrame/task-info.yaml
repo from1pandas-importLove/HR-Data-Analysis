@@ -1,0 +1,26 @@
+type: matching
+captions:
+  - .columns
+  - .axes
+  - .info()
+  - .index
+options:
+  - a list with rows and column labels
+  - column labels of the <code>DataFrame</code>
+  - a concise summary of the <code>DataFrame</code>
+  - row labels of the <code>DataFrame</code>
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/13000#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 06 Apr 2025 13:42:04 UTC"
+record: -1
+ordering:
+  - 1
+  - 0
+  - 2
+  - 3

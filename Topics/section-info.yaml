@@ -1,3 +1,9 @@
 content:
   - Series
   - DataFrame
+  - Accessing data in a DataFrame
+  - Iterators
+  - Lambda functions
+  - Sorting a list
+  - Conditional selection
+  - Sorting Data in Pandas

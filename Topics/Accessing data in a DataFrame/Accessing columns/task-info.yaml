@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: <code>df.columns</code>
+  - text: <code>columns.df</code>
+  - text: "<code>df.axes[0]</code>"
+  - text: "<code>df.axes[1]</code>"
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/12999#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 06 Apr 2025 13:41:33 UTC"
+record: -1
+selected_options:
+  - 0
+  - 3
+local_check: false

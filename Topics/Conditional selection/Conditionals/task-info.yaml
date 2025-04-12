@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "<code>df[(df.column1 == 'b') | (df.column2 &lt; 3)]</code>"
+  - text: "<code>df[(df.column1 == 'b') &amp; (df.column2 &lt; 3)]</code>"
+  - text: "<code>df[df.column1 == 'b' or df.column2 &lt; 3]</code>"
+  - text: "<code>df[df.column1 == 'b' | df.column2 &lt; 3]</code>"
+  - text: "<code>df[(df.column1 == b) | (df.column2 &lt; 3)]</code>"
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/13303#comment
+status: Solved
+record: -1
+local_check: false

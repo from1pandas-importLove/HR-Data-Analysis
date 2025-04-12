@@ -1,0 +1,13 @@
+type: code
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15185#comment
+status: Solved
+feedback:
+  message: "<html>If the index column had a name, you could use .sort_values('index_column_name')\
+    \ as well</html>"
+  time: "Sat, 12 Apr 2025 13:44:23 UTC"
+record: -1
+submission_language: python3

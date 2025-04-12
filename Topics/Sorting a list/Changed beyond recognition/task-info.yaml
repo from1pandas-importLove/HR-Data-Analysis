@@ -1,0 +1,16 @@
+type: sorting
+options:
+  - dragons.reverse()
+  - "dragons = sorted(dragons, key=len)"
+  - dragons.sort()
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6788#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
