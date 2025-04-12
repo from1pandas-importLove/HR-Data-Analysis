@@ -1,0 +1,14 @@
+type: code
+custom_name: "Hello, newbie!"
+files:
+  - name: main.py
+    visible: true
+    highlight_level: NONE
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/13013#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sat, 12 Apr 2025 20:50:28 UTC"
+record: -1
+submission_language: python3

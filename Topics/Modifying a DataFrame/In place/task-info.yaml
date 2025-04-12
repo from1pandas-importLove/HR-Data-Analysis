@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: <code>inplace=True</code> assigns the existing dataframe to a new object
+  - text: <code>inplace=True</code> returns a copy of the object after an operation
+  - text: <code>inplace=True</code> preserves the indexing after an operation
+  - text: <code>inplace=True</code> modifies the existing object instead of returning
+      a new object after an operation
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/32557#comment
+status: Solved
+record: -1
+local_check: false

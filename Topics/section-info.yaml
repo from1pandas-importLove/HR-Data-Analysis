@@ -7,3 +7,5 @@ content:
   - Sorting a list
   - Conditional selection
   - Sorting Data in Pandas
+  - Modifying a DataFrame
+  - Combining Data in Pandas
