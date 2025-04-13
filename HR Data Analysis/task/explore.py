@@ -2,8 +2,6 @@ import pandas as pd
 import requests
 import os
 
-
-warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
 # scroll down to the bottom to implement your solution
 
 if __name__ == '__main__':
@@ -54,6 +52,25 @@ if __name__ == '__main__':
     a_office_df = a_office_df.set_index('employee_office_id')
     b_office_df = b_office_df.set_index('employee_office_id')
 
-    print(list(a_office_df.index))
-    print(list(b_office_df.index))
-    print(list(hr_data_df.index))
+    # concat
+    concatenated_df = pd.concat([a_office_df, b_office_df], axis=0)
+
+
+    # merge
+    merged = concatenated_df.merge(hr_data_df, left_index=True, right_index=True, indicator=True, how='left')
+
+    # filter
+    filterd = merged[merged['_merge'] == 'both']
+
+    # reset and drop indicies and column
+    cleaned = filterd.drop(columns=['_merge'])
+    
+    # sort
+    sort_df = cleaned.sort_index()
+    
+    # print result
+    print(list(sort_df.index))
+    print(list(sort_df.columns))
+
+
+
