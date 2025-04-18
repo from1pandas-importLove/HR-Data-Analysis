@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: <code>.where()</code>
+  - text: <code>.contains()</code>
+  - text: <code>.in()</code>
+  - text: <code>.isin()</code>
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15869#comment
+status: Solved
+record: -1
+local_check: false
