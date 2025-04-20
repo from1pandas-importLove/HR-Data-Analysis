@@ -13,5 +13,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/20896#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 18 Apr 2025 11:36:52 UTC"
+record: 4
